@@ -12,3 +12,6 @@ Awesome deep learning papers, projects, blogs and so on.
 
 ## Database 
 1. http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm 各种各样的数据集
+
+## 模型压缩
+1. https://github.com/he-y/soft-filter-pruning
