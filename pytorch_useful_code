@@ -1,0 +1,10 @@
+1. 加载pretrained model 部分参数
+```
+pretrained_dict=torch.load(model_weight)
+model_dict=myNet.state_dict()
+# 1. filter out unnecessary keys
+pretrained_dict = {k: v for k, v in pretrained_dict.items() if k in model_dict}
+# 2. overwrite entries in the existing state dict
+model_dict.update(pretrained_dict)
+myNet.load_state_dict(model_dict)
+```
