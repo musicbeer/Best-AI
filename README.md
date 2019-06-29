@@ -15,3 +15,6 @@ Awesome deep learning papers, projects, blogs and so on.
 
 ## 模型压缩
 1. https://github.com/he-y/soft-filter-pruning
+
+## tensorrt
+1. https://github.com/NVIDIA/retinanet-examples
